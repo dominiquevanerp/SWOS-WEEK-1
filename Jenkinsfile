@@ -18,4 +18,7 @@ pipeline {
       }
     }
   }
+  environment {
+    Maven = '3.5.0'
+  }
 }
